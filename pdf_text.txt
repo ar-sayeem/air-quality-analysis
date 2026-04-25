@@ -1,0 +1,168 @@
+Page 1 
+Final Project Instructions  
+Data Analysis Project with Pandas, NumPy, and Matplotlib 
+Total Marks: 40  
+Choose a real dataset, answer meaningful questions, justify your data decisions, and present 
+evidence -based findings.  
+Project goal: carry out a mini data investigation using Pandas, NumPy, and Matplotlib. Your work must show data 
+understanding, justified cleaning, feature engineering, analytical depth, clear visual communication, and honest 
+reflection on limitations. 
+ 
+1. Project Overview 
+This project is designed to test not only whether you can use Python libraries, but whether you can think like an 
+analyst. A strong submission will define clear questions, prepare the data carefully, perform meaningful analysis, 
+and defend its conclusions with evidence. 
+• This is not a chart-making task. Random plots without a purpose will not score highly. 
+• You must answer 2 to 3 meaningful questions using data, not just describe the dataset.  
+• Your final work should demonstrate technical skill, reasoning, interpretation, a nd professionalism. 
+2. Required Tools 
+• Pandas: for loading, inspecting, cleaning, filtering, grouping, aggregating, transforming, and summarizing the dataset.  
+• NumPy: for meaningful numerical work such as custom calculations, array -based processing, percentiles, z-scores, 
+normalization, or other statistical computation. 
+• Matplotlib: for visualizations that directly support your questions and findings.  
+• You may work in Google Colab, Jupyter Notebook, or a local Python environment.  
+• You may use small supporting libraries if necessary, but the core analysis must clearly depend on Pandas, NumPy, 
+and Matplotlib. 
+• It is not acceptable to import one of the required libraries without using it meaningfully.  
+3. Dataset Requirements 
+• Your dataset must be real and obtained from a valid source such as Kaggle, UCI Machine Learning Repository, 
+data.gov, the World Bank, WHO, UNESCO, or another credible open-data platform. 
+• It must contain at least 1000 rows and at least 6 columns. 
+• It must be rich enough to support comparison, interpretation, and multiple forms of analysis. 
+• You must mention the dataset source clearly in both your code/notebook and your report.  
+• Do not choose a dataset that is tiny, trivial, mostly empty, or unsuitable for meaningful analysis.  
+• Strong preference: choose a dataset that includes mixed data types, missing values, date/time information, 
+categorical and numerical variables, or enough complexity to make your analysis interesting.  
+Examples of suitable themes: student performance, sales, finance, transport, health, sports, environment, public 
+policy, business operations, or survey data. 
+4. What Your Project Must Include 
+4.1 Problem Definition 
+• State what dataset you selected. 
+• Explain what real topic or issue the dataset represents. 
+• Write 2 to 3 meaningful analytical questions that your project will answer. 
+• Briefly explain why those questions matter. 
+4.2 Data Understanding 
+• Show the dataset shape, column names, data types, sample rows, summary statistics, and missing -value summary. 
+• Do not only print outputs. Briefly explain what those outputs tell you about the structure and quality of the data.  
+4.3 Data Cleaning and Preparation 
+• Perform at least 3 meaningful cleaning or preprocessing steps. 
+Page 2 
+• Examples include handling missing values, removing duplicates, converting data types, fixing inconsistent entries, 
+formatting dates, renaming columns, and removing or analyzing outliers.  
+• For every major cleaning step, write a short justification: what the problem was, what you did, and why that decision 
+was reasonable. 
+4.4 Feature Engineering 
+• Create at least 2 new derived columns from existing data. 
+• Examples include age groups, month or year from a date column, family size, profit margin, normalized values, fare 
+category, rolling average, or a custom score. 
+• You are not allowed to rely only on the original columns. Your new features should help support later analysis.  
+4.5 Data Analysis 
+• Perform at least 6 meaningful analysis operations. 
+• Your project must include at least 2 subgroup comparisons. 
+• It must include at least 1 relationship analysis between variables. 
+• It must include at least 1 outlier, anomaly, or unusual-pattern analysis. 
+• It must include at least 1 custom NumPy-based computation. 
+• Examples of strong analysis include filtering, grouping and aggregation, ranking, trend analysis, distribution analysis, 
+correlation-style comparison, frequency analysis, and custom metrics. 
+4.6 Visualization 
+• Create at least 4 meaningful charts using Matplotlib. 
+• Every chart must have a clear title, labeled axes where appropriate, and readable formatting. 
+• For each chart, write 2 to 3 sentences explaining what it shows, why it matters, and what insight can be taken from 
+it. 
+• Accepted chart types include line charts, bar charts, histograms, scatter plots, box plots, pie charts where 
+appropriate, heatmaps built with Matplotlib, and multi-panel figures. 
+4.7 Findings and Discussion 
+• Write at least 5 clear, evidence-based insights from your analysis. 
+• Avoid weak statements such as “the graph looks good” or “the data is interesting.”  
+• Strong findings should connect your evidence back to the questions you originally asked.  
+4.8 Limitations 
+• Include a short section on limitations. 
+• Discuss issues such as missing values, sample bias, incomplete variables, preprocessing choices, or the fact that 
+correlation does not prove causation. 
+5. Code Submission Instructions 
+• Your project code must be submitted through either a GitHub repository link or a Google Colab notebook link.  
+• You must upload the code link to the Google Sheet provided by the instructor.  
+• Your code should be clearly organized into sections such as: import libraries, load data, inspect data, clean data, 
+engineer features, analyze, visualize, and summarize findings. 
+• Your notebook or repository must clearly include your name, student ID, project title, and dataset source. 
+• Your code/notebook must run correctly. Broken links, inaccessible repositories, or missing files may lead to mark 
+deduction. 
+• If you use GitHub, make sure the repository is public or accessible to the instructor.  
+• If you use Google Colab, make sure the sharing permission allows the instructor to view the notebook.  
+6. How to Submit 
+1. Open the Google Sheet provided by the me. 
+2. Enter your required information in the assigned row, including your name, student ID, and the GitHub or Google 
+Colab link to your project. 
+3. Check the link yourself before submission to make sure it opens properly and can be viewed.  
+4. Upload your project report separately using the submission method announced by me. 
+5. Submit before the deadline announced in class. 
+Important: A project cannot be evaluated properly if the code link does not work or if the report is missing. 
+7. Project Report Requirements 
+Recommended length: 3 to 5 pages. 
+Page 3 
+• Project title 
+• Student name and student ID 
+• Dataset name and source link 
+• Project objective and analytical questions 
+• Dataset description 
+• Data cleaning and preparation 
+• Feature engineering 
+• Analysis and visualizations 
+• Key findings 
+• Limitations 
+• Conclusion 
+Requirement: Include selected screenshots or exported figures from your analysis to make the report easier to 
+understand. 
+8. Presentation / Viva Expectation 
+• You may be asked to explain your work orally. 
+• Be prepared to answer questions such as: Why did you choose this dataset? Why did you clean the data in that way? 
+Why did you create those new features? Which result do you trust the most? What is one weakness of your analysis?  
+• If you cannot explain your own project clearly, marks may be reduced.  
+9. Marking Scheme (40 Marks) 
+Component Marks What is expected 
+Problem definition and dataset 
+selection 
+5 Clear project objective, appropriate dataset, valid source, and 
+meaningful analytical questions. 
+Data understanding and cleaning 8 Proper inspection of the dataset, identification of issues, meaningful 
+cleaning steps, and justification of cleaning decisions. 
+Feature engineering 5 At least 2 useful derived features that support later analysis and are 
+logically motivated. 
+Data analysis using Pandas and 
+NumPy 
+10 Analytical depth, subgroup comparisons, relationship analysis, outlier 
+or anomaly analysis, and meaningful NumPy usage beyond a trivial 
+import. 
+Visualization with Matplotlib 6 At least 4 useful charts with good labels, readable formatting, and clear 
+interpretation. 
+Findings, limitations, and conclusion 4 Evidence-based insights, honest discussion of limitations, and a logical 
+conclusion. 
+Code quality, report quality, and 
+submission completeness 
+2 Readable code, organized report, working submission link, and 
+complete submission materials. 
+ 
+10. Academic Integrity and Project Quality 
+• Your work must be your own. Copying notebooks, repositories, or reports from the internet or from classmates is not 
+acceptable. 
+• You may read documentation, tutorials, and examples, but your final submission must show your own understanding 
+and original analysis. 
+• You must cite the dataset source and any major external reference you relied on.  
+• Submitting code that you cannot explain may result in mark reduction during presentation or viva. 
+• Superficial projects that only show basic commands without real analytical depth may receive low marks even if they 
+technically use the required libraries. 
+11. Final Checklist Before Submission 
+• ☐ I selected a suitable dataset with at least 1000 rows and 6 columns. 
+• ☐ I used Pandas, NumPy, and Matplotlib meaningfully. 
+• ☐ I included at least 3 cleaning or preprocessing steps with justification. 
+• ☐ I created at least 2 engineered features. 
+• ☐ I performed at least 6 meaningful analysis operations. 
+• ☐ I included at least 2 subgroup comparisons. 
+• ☐ I included at least 1 relationship analysis and 1 outlier or unusual -pattern analysis. 
+• ☐ I created at least 4 useful charts and interpreted each of them. 
+• ☐ I wrote at least 5 clear findings and included a limitations section. 
+Page 4 
+• ☐ My GitHub or Google Colab link works properly and has been added to the Google Sheet.  
+• ☐ My report is complete and ready to submit. 
+• ☐ My name, student ID, project title, and dataset source are clearly mentioned. 
+Best practice: choose a dataset that genuinely interests you. Strong questions usually lead to stronger analysis. 
