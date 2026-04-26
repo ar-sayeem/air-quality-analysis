@@ -75,7 +75,18 @@ We used pandas and numpy to search for answers:
 ![Chart 6: Grouped Bar Chart - Good vs Hazardous Composition](images/chart6_grouped_bar_composition.png)
 **Insight:** We compared the exact chemical makeup of the absolute best and absolute worst cities side-by-side. Carbon Monoxide and Nitrogen Dioxide stay remarkably flat across both. The entire crisis in hazardous cities comes from a catastrophic explosion of PM2.5 alone.
 
+![Chart 7: Correlation Heatmap of Air Pollutants](images/chart7_correlation_heatmap.png)
+**Insight:** This heatmap matrix maps the exact mathematical relationship between all pollutants. Deep red squares highlight strong positive connections. The dark red coordinate (0.98) connecting PM2.5 AQI with Overall AQI is unmistakable. It mathematically proves that while Ozone, CO, and NO2 exist globally, PM2.5 almost exclusively dictates when air flips from safe to deadly.
+
+![Chart 8: The Extremes - Top 10 Cleanest vs. Top 10 Most Polluted Cities](images/chart8_city_extremes.png)
+**Insight:** By splitting the dataset into absolute local extremes, we see the true severity of the global inequity. The cleanest cities in the world barely register an AQI of 10. Conversely, the most polluted cities sit entirely in the "Hazardous" band, blasting severely past the 300 AQI disaster threshold.
+
 ---
+
+
+![Chart 7: Correlation Heatmap of Air Pollutants](images/chart7_correlation_heatmap.png)
+**Insight:** This heatmap matrix maps the exact mathematical relationship between all pollutants. Dark red squares highlight strong positive connections. The deep red block (0.98) connecting PM2.5 AQI with Overall AQI is unmistakable. It mathematically proves that while Ozone, CO, and NO2 exist globally, PM2.5 exclusively dictates when air flips from safe to deadly.
+
 
 ## 7. Final Discoveries & Limitations
 
