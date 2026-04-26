@@ -1,7 +1,5 @@
-# Data Analysis Project Report: Global Air Pollution
+# Global Air Pollution Data Analysis
 
-**Student Name:** [Your Name]
-**Student ID:** [Your ID]
 **Dataset Source:** [Kaggle - Global Air Pollution Dataset](https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset)
 
 ---
@@ -82,10 +80,6 @@ We used pandas and numpy to search for answers:
 **Insight:** By splitting the dataset into absolute local extremes, we see the true severity of the global inequity. The cleanest cities in the world barely register an AQI of 10. Conversely, the most polluted cities sit entirely in the "Hazardous" band, blasting severely past the 300 AQI disaster threshold.
 
 ---
-
-
-![Chart 7: Correlation Heatmap of Air Pollutants](images/chart7_correlation_heatmap.png)
-**Insight:** This heatmap matrix maps the exact mathematical relationship between all pollutants. Dark red squares highlight strong positive connections. The deep red block (0.98) connecting PM2.5 AQI with Overall AQI is unmistakable. It mathematically proves that while Ozone, CO, and NO2 exist globally, PM2.5 exclusively dictates when air flips from safe to deadly.
 
 
 ## 7. Final Discoveries & Limitations
